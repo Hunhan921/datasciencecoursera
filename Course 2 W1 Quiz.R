@@ -28,3 +28,4 @@ mean(y$Temp)
 #10. What was the maximum ozone value in the month of May (i.e. Month is equal to 5)?
 z <- hw1_data %>% filter (Month == 5) %>% arrange(desc(Ozone))
 z
+z
